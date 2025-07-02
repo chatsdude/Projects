@@ -13,7 +13,7 @@ This project enables users to ask natural language questions about **alarm event
 
 ## Demo
 
-[![Watch the demo](NL2SQL.gif)
+[![Watch the demo](NL2SQLDemo.gif)
 ---
 
 ## What It Does
