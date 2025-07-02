@@ -11,15 +11,12 @@
 
 This project enables users to ask natural language questions about **alarm events in a manufacturing plant**, and automatically generates relevant **SQL queries**, **aggregations**, and **visual dashboards** — without needing technical expertise.
 
-## 📽️ Demo
+## Demo
 
-[![Watch the demo]()
-
-> 📌 Replace `YOUR_VIDEO_ID` with the YouTube video ID (e.g., for `https://youtu.be/dQw4w9WgXcQ`, the ID is `dQw4w9WgXcQ`)
-
+[![Watch the demo](NL2SQL.gif)
 ---
 
-## 🧠 What It Does
+## What It Does
 
 - Converts **natural language questions** into **SQL queries** over a manufacturing alarm database.
 - Automatically generates **interactive dashboards** (bar charts, bar drilldowns etc.) for visualization.
@@ -31,7 +28,7 @@ This project enables users to ask natural language questions about **alarm event
 
 ---
 
-## ✨ Features
+## Features
 
 - **NL → SQL**: Schema-aware LLM prompting to convert plain English to valid SQL queries.
 - **Auto Dashboards**: Renders charts based on query intent using `Plotly` and `Streamlit`.
