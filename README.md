@@ -56,5 +56,5 @@ This project enables users to ask natural language questions about **alarm event
 - Utilized RAG operations to enrich the knowledge base with data from Mercedes and the company's official website.
 - Scraped up-to-date information from the Mercedes sales website, ensuring access to the latest data on electric vehicles and their capabilities.
 
-[![Watch the demo](Sales Chatbot.gif)
+[![Watch the demo](https://github.com/chatsdude/Projects/blob/main/Sales%20Chatbot.gif)
 
