@@ -1,12 +1,3 @@
-# Sales Assistant for Mercedes Benz Electric Vehicles
-
-- Used llama-index and Cohere Command R+ model.
-- Utilized RAG operations to enrich the knowledge base with data from Mercedes and the company's official website.
-- Scraped up-to-date information from the Mercedes sales website, ensuring access to the latest data on electric vehicles and their capabilities.
-
-### Demo Video Here
-
-
 # Natural Language to Dashboard Engine for Manufacturing Alarms
 
 This project enables users to ask natural language questions about **alarm events in a manufacturing plant**, and automatically generates relevant **SQL queries**, **aggregations**, and **visual dashboards** — without needing technical expertise.
@@ -59,4 +50,11 @@ This project enables users to ask natural language questions about **alarm event
 
 ---
 
+# Sales Assistant for Mercedes Benz Electric Vehicles
+
+- Used llama-index and Cohere Command R+ model.
+- Utilized RAG operations to enrich the knowledge base with data from Mercedes and the company's official website.
+- Scraped up-to-date information from the Mercedes sales website, ensuring access to the latest data on electric vehicles and their capabilities.
+
+[![Watch the demo](Sales Chatbot.gif)
 
