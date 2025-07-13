@@ -58,3 +58,19 @@ This project enables users to ask natural language questions about **alarm event
 
 [![Watch the demo](https://github.com/chatsdude/Projects/blob/main/Sales%20Chatbot.gif)
 
+# FitKI
+- Built a personalized AI based fitness coach application that provides instant feedback on exercise form and gauges its efficiency
+- Helps users attain their fitness objectives and tracks their workout regime
+- Provides visual analytics for users to keep track of their progress
+
+- ## 💻 Tech Stack
+
+| Layer           | Tools & Libraries              |
+|----------------|---------------------------------|
+| Pose Estimation   | Quick Pose SDK/Mediapipe       |
+| Backend Framework | Flask |
+| Backend DB      | `SQLite`|
+| Language        | Python 3 for backend and Swift for Mobile UI |
+
+[![Watch the demo](FitKIDemo.gif)
+
