@@ -74,3 +74,21 @@ This project enables users to ask natural language questions about **alarm event
 
 [![Watch the demo](FitKIDemo.gif)
 
+# Computer Vision and Deep Learning (Project)
+### Superpixel Clustering and Post-Hoc correction to improve the performance of cloud segmentation from satellite images
+
+#### Abstract:
+We implement a 1D-SEUNet model on Superpixel vectors of satelite images to segment out the cloud from the background. Our method aims to reduce the parameters and increase the speed of a conventional segmentation model.
+
+#### Main Libraries used
+- Pytorch
+- Fast-SLIC
+- Rasterio
+- Sklearn (MDS and PCA)
+
+#### Model
+<img src="https://github.com/SAint7579/ComputerVision_CloudSegmentation/blob/ef8924f6bc06541a6202479526b7824877457dfa/Images/Model.png" alt="Alt Text"></img>
+
+#### Results
+<img src="https://github.com/SAint7579/ComputerVision_CloudSegmentation/blob/ef8924f6bc06541a6202479526b7824877457dfa/Images/Results.png" alt="Alt Text" width="800" height="150"></img>
+
