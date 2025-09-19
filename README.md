@@ -1,4 +1,4 @@
-# Natural Language to Dashboard Engine for Manufacturing Alarms
+# Prompts to Insights for Manufacturing Alarms
 
 This project enables users to ask natural language questions about **alarm events in a manufacturing plant**, and automatically generates relevant **SQL queries**, **aggregations**, and **visual dashboards** — without needing technical expertise.
 
