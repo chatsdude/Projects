@@ -48,6 +48,7 @@ This project enables users to ask natural language questions about **alarm event
 - “Compare alarm resolution time for Line A vs. Line B.”
 - “Visualize the distribution of alarms by type.”
 
+Code repo: https://github.com/chatsdude/Text2SQL
 ---
 
 # Sales Assistant for Mercedes Benz Electric Vehicles
@@ -55,6 +56,8 @@ This project enables users to ask natural language questions about **alarm event
 - Used llama-index and Cohere Command R+ model.
 - Utilized RAG operations to enrich the knowledge base with data from Mercedes and the company's official website.
 - Scraped up-to-date information from the Mercedes sales website, ensuring access to the latest data on electric vehicles and their capabilities.
+
+Code repo: https://github.com/besteaydemir/mercedes-chatbot
 
 [![Watch the demo](https://github.com/chatsdude/Projects/blob/main/Sales%20Chatbot.gif)
 
@@ -67,6 +70,8 @@ This project enables users to ask natural language questions about **alarm event
 - Built a personalized AI based fitness coach application that provides instant feedback on exercise form and gauges its efficiency
 - Helps users attain their fitness objectives and tracks their workout regime
 - Deployed REST API endpoints on a cloud server to provide visual analytics to the users to keep track of their progress
+
+Code repo for REST APIs: https://github.com/chatsdude/fitkai
 
 - ## 💻 Tech Stack
 
@@ -90,6 +95,8 @@ We implement a 1D-SEUNet model on Superpixel vectors of satelite images to segme
 - Fast-SLIC
 - Rasterio
 - Sklearn (MDS and PCA)
+
+Code repo: https://github.com/SAint7579/ComputerVision_CloudSegmentation
 
 #### Model
 <img src="https://github.com/SAint7579/ComputerVision_CloudSegmentation/blob/ef8924f6bc06541a6202479526b7824877457dfa/Images/Model.png" alt="Alt Text"></img>
