@@ -61,7 +61,7 @@ This project enables users to ask natural language questions about **alarm event
 # FitKI
 - Built a personalized AI based fitness coach application that provides instant feedback on exercise form and gauges its efficiency
 - Helps users attain their fitness objectives and tracks their workout regime
-- Provides visual analytics for users to keep track of their progress
+- Deployed REST API endpoints on a cloud server to provide visual analytics to the users to keep track of their progress
 
 - ## 💻 Tech Stack
 
@@ -72,7 +72,10 @@ This project enables users to ask natural language questions about **alarm event
 | Backend DB      | `SQLite`|
 | Language        | Python 3 for backend and Swift for Mobile UI |
 
-[![Watch the demo](FitKIDemo.gif)
+<p align="center">
+  <img src="FitKIDemo.gif" alt="Demo GIF" width="45%" />
+  <img src="FitKIDashboard.png" alt="Dashboard Screenshot" width="45%" />
+</p>
 
 # Computer Vision and Deep Learning (Project)
 ### Superpixel Clustering and Post-Hoc correction to improve the performance of cloud segmentation from satellite images
