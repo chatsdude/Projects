@@ -58,6 +58,11 @@ This project enables users to ask natural language questions about **alarm event
 
 [![Watch the demo](https://github.com/chatsdude/Projects/blob/main/Sales%20Chatbot.gif)
 
+
+# **FORRS Energy Price Forecasting Project**  
+  → [Case Study + Slides](https://github.com/chatsdude/Forrs_energy_price_forecasting_case_study)  
+  → Reduced forecasting error by ~24% compared to baseline, and improved stakeholder trust with SHAP interpretability.
+
 # FitKI
 - Built a personalized AI based fitness coach application that provides instant feedback on exercise form and gauges its efficiency
 - Helps users attain their fitness objectives and tracks their workout regime
