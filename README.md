@@ -72,10 +72,7 @@ This project enables users to ask natural language questions about **alarm event
 | Backend DB      | `SQLite`|
 | Language        | Python 3 for backend and Swift for Mobile UI |
 
-<p align="center">
-  <img src="FitKIDemo.gif" alt="Demo GIF" width="45%" />
-  <img src="FitKIDashboard.png" alt="Dashboard Screenshot" width="45%" />
-</p>
+[![Watch the demo](FitKIDemo.gif)
 
 # Computer Vision and Deep Learning (Project)
 ### Superpixel Clustering and Post-Hoc correction to improve the performance of cloud segmentation from satellite images
