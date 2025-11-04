@@ -1,4 +1,4 @@
-# Prompts to Insights for Manufacturing Alarms
+# LLM Agent for Data Insights
 
 This project enables users to ask natural language questions about **alarm events in a manufacturing plant**, and automatically generates relevant **SQL queries**, **aggregations**, and **visual dashboards** — without needing technical expertise.
 
