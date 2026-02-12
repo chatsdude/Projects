@@ -4,7 +4,7 @@ This project enables users to ask natural language questions about alarm events 
 
 ## Demo
 
-[![Watch the demo](DataToInsightsAgent.gif)
+![Watch the demo](DataToInsightsAgent.gif)
 ---
 
 ## What It Does
