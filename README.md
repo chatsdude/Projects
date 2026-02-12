@@ -1,6 +1,6 @@
 # LLM Agent for Data Insights
 
-This project enables users to ask natural language questions about **alarm events in a manufacturing plant**, and automatically generates relevant **SQL queries**, **aggregations**, and **visual dashboards** — without needing technical expertise.
+This project enables users to ask natural language questions about alarm events in a manufacturing plant and automatically generates relevant SQL queries, aggregations, visual dashboards, and grounded domain insights.
 
 ## Demo
 
@@ -9,35 +9,49 @@ This project enables users to ask natural language questions about **alarm event
 
 ## What It Does
 
-- Converts **natural language questions** into **SQL queries** over a manufacturing alarm database.
-- Automatically generates **interactive dashboards** (bar charts, bar drilldowns etc.) for visualization.
-- Uses **LangGraph** and **LangChain** to create an **agentic workflow**, handling multi-step reasoning such as:
-  - Query interpretation
-  - Metadata awareness
-  - Chart type suggestion
-  - Response summarization
+- Converts natural language questions into schema-aware SQL queries over a manufacturing alarm database
+- Automatically generates interactive dashboards (bar charts, drilldowns, trends)
+- Produces concise, domain-specific insights via a dedicated query-results summary node
 
+The system is built as a modular LangGraph agent, handling multi-step reasoning across:
+
+- Query interpretation
+- Metadata awareness
+- SQL generation
+- Chart selection
+- Insight summarization
 ---
 
-## Features
+## Architecture
 
-- **NL → SQL**: Schema-aware LLM prompting to convert plain English to valid SQL queries.
-- **Auto Dashboards**: Renders charts based on query intent using `Plotly` and `Streamlit`.
-- **LangGraph-based Agent**: Multi-node agent handles parsing, querying, rendering, and responding.
-- **Hallucination Reduction**: Implements schema-anchored prompting and few-shot examples to improve fidelity.
-- **Configurable Backend**: Works with SQLite based alarm datasets.
+The agent is exposed via a FastAPI backend and connected to a Next.js frontend for interactive exploration (deployment in progress).
+
+Designed as a multi-node graph for clear separation between reasoning, execution, and presentation layers.
 
 ---
+## Knowledge-Grounded Summarization (Experimental)
+
+To improve semantic consistency, I experimented with lightweight knowledge graph encoding:
+
+Domain relationships (alarm codes and hierarchies) are represented as a structured adjacency list
+
+This structure is injected into the LLM context to ground summarisation.
+
+Reduces ambiguous interpretations and improves domain-aware explanations
+
+The current implementation uses prompt-injected structure. Future extensions could integrate a graph database for dynamic querying.
 
 ## 💻 Tech Stack
 
-| Layer           | Tools & Libraries              |
-|----------------|---------------------------------|
-| LLM Framework   | `LangChain`, `LangGraph`        |
-| LLMs Tested     | `GPT-4o-mini`, `LLaMA`                |
-| Visualization   | `Plotly`, `Matplotlib`, `Streamlit` |
-| Backend DB      | `SQLite` (demo) |
-| Language        | Python 3.10+                    |
+| Layer         | Tools                |
+| ------------- | -------------------- |
+| LLM Framework | LangChain, LangGraph |
+| Backend       | FastAPI              |
+| Frontend      | Next.js              |
+| LLMs Tested   | GPT-5-mini, LLaMA   |
+| Visualization | Plotly, Matplotlib   |
+| Database      | SQLite               |
+| Language      | Python 3.10+         |
 
 ---
 
@@ -47,8 +61,6 @@ This project enables users to ask natural language questions about **alarm event
 - “Show me the daily alarm count trend for Machine 4.”
 - “Compare alarm resolution time for Line A vs. Line B.”
 - “Visualize the distribution of alarms by type.”
-
-Code repo: https://github.com/chatsdude/Text2SQL
 ---
 
 # Sales Assistant for Mercedes Benz Electric Vehicles
