@@ -24,7 +24,7 @@ The system is built as a modular LangGraph agent, handling multi-step reasoning 
 
 ## Architecture
 
-The agent is exposed via a FastAPI backend and connected to a Next.js frontend for interactive exploration (deployment in progress).
+The agent is exposed via a FastAPI backend and connected to a Next.js frontend for interactive exploration. The frontend has been deployed on Vercel and the backend on Railway.
 
 Designed as a multi-node graph for clear separation between reasoning, execution, and presentation layers.
 
