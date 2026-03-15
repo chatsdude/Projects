@@ -63,6 +63,46 @@ The current implementation uses prompt-injected structure. Future extensions cou
 - “Visualize the distribution of alarms by type.”
 ---
 
+# Policy Graph Explorer (Graph-RAG for Compliance Documents)
+
+Policy Graph Explorer is an end-to-end web application that ingests compliance and policy PDFs, extracts entities and relationships, and constructs a knowledge graph to enable structured exploration of policy documents.
+
+The system allows users to navigate the policy graph visually and query policies through a chat interface, with answers grounded in the underlying documents.
+
+## Demo
+
+![Watch the demo](https://github.com/chatsdude/Projects/blob/main/Policy-Graph-Explorer.gif)
+
+## What It Does
+
+- Upload and parse compliance and policy PDF documents
+- Extract entities such as policies, requirements, and regulatory concepts
+- Construct a typed **knowledge graph** connecting policy relationships
+- Provide an interactive **graph visualization** to explore policy dependencies
+- Enable **graph-aware retrieval** for answering policy queries
+- Allow users to query policies through a chat interface grounded in the source documents
+
+The system combines knowledge graph reasoning with LLM-based retrieval to improve transparency and traceability in policy exploration.
+
+---
+## Key Features
+
+- End-to-end full-stack application built with Next.js
+- Interactive graph visualization for policy relationships
+- Graph-aware retrieval for policy queries
+- Streaming chat interface for document exploration
+- Deployed on Vercel
+
+## 💻 Tech Stack
+
+| Layer | Tools |
+|------|------|
+| Framework | Next.js |
+| LLM Integration | OpenAI API |
+| Visualization | React Force Graph 2D|
+| Deployment | Vercel |
+| Language | TypeScript|
+
 # Sales Assistant for Mercedes Benz Electric Vehicles
 
 - Used llama-index and Cohere Command R+ model.
